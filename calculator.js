@@ -1,4 +1,4 @@
-// Define the numbers and the operation here
+
 let firstNumber = 2
 let secondNumber = 5
 let operation = "/"
@@ -12,4 +12,4 @@ if (operation == "*"){
 } else if ( operation == "/"){
     console.log(`The Operation is division. *** ${firstNumber} / ${secondNumber} = ${firstNumber / secondNumber}`)
 }
-// Write if-statements here
+
