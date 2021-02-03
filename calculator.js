@@ -1,8 +1,7 @@
-
 // Declaring a variable
-let firstNumber = 2
-let secondNumber = 5
-let operation = "-"
+let firstNumber = 2;
+let secondNumber = 5;
+let operation = "/";
 /*
 // if statment
 if (operation == "*"){
@@ -17,10 +16,16 @@ if (operation == "*"){
 */
 let result;
 
-let check = () =>{
-
-    result = (operation == "/") ? firstNumber / secondNumber: (operation == "*") ? firstNumber * secondNumber : (operation == "-") ? firstNumber - secondNumber : (operation == "+") ? firstNumber + secondNumber : "Error"
-}
+let check = () => {
+  result =
+    operation == "/"
+      ? firstNumber / secondNumber
+      : operation == "*"
+      ? firstNumber * secondNumber
+      : operation == "-"
+      ? firstNumber - secondNumber
+      : operation == "+" && firstNumber + secondNumber;
+};
 check();
 
-console.log(result)
+console.log(result);
